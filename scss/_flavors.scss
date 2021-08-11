@@ -1,0 +1,88 @@
+.flavor-icon {
+  margin-top: 0.5em;
+  display: inline-block;
+  padding-right: 0px;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 50%;
+}
+
+.chocolate {
+  border-color: #50231c;
+}
+
+.peanut {
+  border-color: #c08444;
+}
+
+.avellanas {
+  border-color: #cc9458;
+}
+
+.dulce {
+  border-color: #a8743c;
+}
+
+.brownie {
+  border-color: #4e1c14;
+}
+
+.frutilla {
+  border-color: #da002b;
+}
+
+.frambuesa {
+  border-color: #c90244;
+}
+
+.coco {
+  border-color: #f1efde;
+}
+
+.limon {
+  border-color: #d9f366;
+}
+
+.menta {
+  border-color: #b6f366;
+}
+
+.banana {
+  border-color: #f3f166;
+}
+
+.product-flavors {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flavor-name {
+  margin-top: 0.8em;
+  margin-left: 0.5em;
+  margin-right: 2em;
+  font-size: 1.2em;
+  font-weight: 500;
+  min-width: 8em;
+}
+
+.flavor-items {
+  display: flex;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1024px) {
+  .product-flavors {
+    margin-top: 1em;
+  }
+
+  .flavor-name {
+    font-size: 0.9em;
+    min-width: 6em;
+  }
+
+  .flavor-icon {
+    border-width: 10px;
+  }
+}

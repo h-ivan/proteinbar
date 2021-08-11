@@ -1,0 +1,175 @@
+
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: var(--waves-bg);
+  z-index: 99;
+
+}
+
+.logo {
+  max-width: 250px;
+  padding-top: 0.7em;
+  padding-left: 1rem;
+}
+
+.logo-container {
+  position: absolute;
+}
+
+.navbar {
+  flex-grow: 1;
+  padding-top: 1rem;
+  padding-bottom: 1.4rem;
+  padding-right: 1rem;
+}
+
+.menu {
+  display: flex;
+  gap: 1.7vw;
+  margin-top: 0.5em;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.menu-item:nth-of-type(1) {
+  margin-left: auto;
+}
+
+.menu-link {
+  color: white;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border-radius: 60px;
+
+  &:hover {
+    background-color: var(--hover-dark);
+    opacity: 0.8;
+    transition: 200ms ease;
+  }
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle:checked ~ .menu-item {
+  display: block;
+  transition: all 50ms ease-in;
+}
+
+.nav-toggle:checked + .label-hamburger > .menu-click-area > .hamburger {
+  transform: rotate(45deg) translate(4px);
+  top: 7px;
+  right: 4px;
+}
+
+.nav-toggle:checked + .label-hamburger > .menu-click-area > .hamburger::before {
+  display: none;
+}
+
+.nav-toggle:checked + .label-hamburger > .menu-click-area > .hamburger::after {
+  transform: rotate(-90deg) translate(10px);
+
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+}
+
+.menu-click-area {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.label-hamburger {
+  margin-left: auto;
+  display: none;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  left: auto;
+  width: 2em;
+  height: 5px;
+  background: white;
+  border-radius: 5px;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+}
+
+.hamburger::before {
+  top: 20px;
+}
+
+.hamburger::after {
+  top: 10px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1024px) {
+  .menu {
+    flex-direction: column;
+    margin-bottom: 0.3em;
+    gap: 0;
+    margin-top: 0.8em;
+
+  }
+  .menu-item {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.8em;
+    margin-top: 2em;
+  }
+
+  .label-hamburger {
+    display: block;
+  }
+
+  .bg-img {
+    top: 25px;
+  }
+
+  .navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    max-width: 220px;
+    padding-top: 0.6em;
+  }
+
+  .navbar {
+    padding-bottom: 0.1rem;
+  }
+
+  .menu {
+    margin-top: 0.5em;
+  }
+
+  .bg-img {
+    top: 15px;
+  }
+}
