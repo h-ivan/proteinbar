@@ -1,4 +1,3 @@
 .DS_Store
 .idea
-css/main.css
-css/normalize.css
+node_modules

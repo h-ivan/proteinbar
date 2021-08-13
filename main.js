@@ -137,6 +137,14 @@ new Vue({
         descripcion:
           "Barra con 32% de proteína (o sea 16 g de proteína por barrita). Contiene en el interior de la masa un “crocante de proteína” que le da una textura excelente y diferente a todas las demás del mercado. Excelente complemento para acelerar la recuperación luego del entrenamiento Su gran aporte proteico potencia la síntesis muscular. Ideales para todo tipo de entrenamiento.",
         sabores: [{ nombre: "Frutilla", icon: "frutilla" }],
+      },{
+        image: "./img/barras/energy_bar_ultratech.jpg",
+        link: "https://ballnutrition.com.ar/productos/barrasdeproteinas/energybarx12uultratechbarrasenergeticas",
+        nombre: "Energy Bar Ultra Tech",
+        presentacion: "Caja x 12 Unidades",
+        descripcion:
+          "Es el alimento ideal para utilizar antes y durante la actividad física, ya que es el momento en que el cuerpo necesita reponer los carbohidratos que está utilizando para ejecutar dicha actividad, y si los carbohidratos no se reponen rápidamente, luego de determinado tiempo de ejercicio aparece la fatiga muscular. Energy Bar de Ultra Tech ayuda a evitar que eso suceda aportando carbohidratos y proteínas de alto valor biológico y fácil asimilación.",
+        sabores: [{ nombre: "Chocolate", icon: "chocolate" }],
       },
     ],
   },

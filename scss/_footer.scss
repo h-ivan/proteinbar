@@ -1,6 +1,6 @@
 .bg-footer {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   z-index: -1;
 }
 
@@ -46,20 +46,14 @@
   display: flex;
 }
 
-.icon-face {
-  mask: url(../img/social-facebook.svg ) no-repeat center;
-  width:15px;
-  height:15px;
-}
+.icon-social {
+  width:18px;
+  height:18px;
 
-.icon-ig {
-  mask: url(../img/social-instagram.svg) no-repeat center;
-  width: 18px;
-  height: 18px;
-}
-
-.icon {
-  background-color: var(--shadow-brand);
+  img {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .social-link {
