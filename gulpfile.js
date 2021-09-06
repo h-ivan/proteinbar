@@ -1,3 +1,5 @@
+//npm install gulp gulp-sass gulp-postcss cssnano gulp-terser browser-sync
+
 const { src, dest, watch, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');

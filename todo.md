@@ -1,0 +1,3 @@
+- footer align
+- banners
+- figma product card
