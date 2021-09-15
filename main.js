@@ -136,7 +136,10 @@ new Vue({
         presentacion: "Caja x 12 Unidades",
         descripcion:
           "Barra con 32% de proteína (o sea 16 g de proteína por barrita). Contiene en el interior de la masa un “crocante de proteína” que le da una textura excelente y diferente a todas las demás del mercado. Excelente complemento para acelerar la recuperación luego del entrenamiento Su gran aporte proteico potencia la síntesis muscular. Ideales para todo tipo de entrenamiento.",
-        sabores: [{ nombre: "Frutilla", icon: "frutilla" }],
+        sabores: [
+            { nombre: "Frutilla con Baño de Yogurth", icon: "frutilla" },
+            { nombre: "Banana", icon: "banana" },
+        ],
       },{
         image: "./img/barras/energy_bar_ultratech.jpg",
         link: "https://ballnutrition.com.ar/productos/barrasdeproteinas/energybarx12uultratechbarrasenergeticas",
