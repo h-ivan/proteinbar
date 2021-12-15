@@ -139,6 +139,7 @@ new Vue({
         sabores: [
             { nombre: "Frutilla con Baño de Yogurth", icon: "frutilla" },
             { nombre: "Banana", icon: "banana" },
+            { nombre: "Chocolate", icon: "chocolate" },
         ],
       },{
         image: "./img/barras/energy_bar_ultratech.jpg",
