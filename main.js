@@ -153,7 +153,7 @@ new Vue({
       {
         image: "./img/barras/crunch.jpg",
         link: "https://ballnutrition.com.ar/productos/barrasdeproteinas/proteinbarcrunchfitx10ugenerationfit",
-        nombre: "Protein Bar Ultra Tech",
+        nombre: "Protein Bar Crunch Fit x 10 u. Generation Fit",
         presentacion: "Caja x 10 Unidades",
         descripcion:
           "Alimento en barra a base de proteína, cubierto con baño de respostería con leche, libre de gluten (SIN T.A.C.C.) Información Nutricional: Valor Energético 167 Kcal. / Proteínas 15 Grs. / Carbohidratos Totales 12 Grs. / Fibra Alimentaria 1,4 Grs. / Grasas Totales 7 Grs. / Grasas Saturadas 2,5 Grs. / Grasas Trans 0 Grs. / Sodio 91 Mg. / Jarabe de Isomalto-Oligosacáridos / Concentrado de Proteínas de Leche / Texturizado de Aislado de Proteína de Soja / Baño de Repostería Dietético Semiamargo / Aislado de Proteína de Soja / Fructo-Oligosacáridos / Aceite de Girasol",
