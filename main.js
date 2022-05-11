@@ -162,6 +162,17 @@ new Vue({
             { nombre: "Cookies n Cream", icon: "dulce" },
             { nombre: "Maracuyá", icon: "banana" },
         ],
+      },
+      {
+        image: "./img/barras/barfatburner.jpg",
+        link: "https://ballnutrition.com.ar/productos/barrasdeproteinas/fatburnerproteinbarx12uultratech",
+        nombre: "Fat Burner Protein Bar Ultra Tech",
+        presentacion: "Caja x 12 Unidades",
+        descripcion:
+          "¡Todo el sabor y aporte de proteínas en forma de snack saludable, y ahora por primera vez con quemadores de grasa y sin azúcar! Estas exquisitas barras están elaboradas a partir de una mezcla especial de proteínas de la más alta calidad, sin incluir grandes cantidades de grasa y sin azúcar.",
+        sabores: [
+            { nombre: "Chocolate", icon: "chocolate" },
+        ],
       }
     ],
   },
