@@ -3,6 +3,19 @@ new Vue({
   data: {
     productos: [
       {
+        image: "./img/barras/veggiebar.jpg",
+        link: "https://ballnutrition.com.ar/productos/multivitaminicos/microvitoneadayx90tabsmultivitaminicosaturnsupplements",
+        nombre: "Veggie Bar Protein Bar Gentech",
+        presentacion: "Caja x 10 Unidades",
+        descripcion:
+          "Las barras proteicas VeggieBar de Gentech son ideales para las personas veganas con 18grs de proteína de arveja y con el agregado de vitamina B12.",
+        sabores: [
+          { nombre: "Brownie Crunch", icon: "brownie" },
+          { nombre: "Peanut Butter Crunch", icon: "peanut" },
+
+        ],
+      },
+      {
         image: "./img/barras/proteinbarena.jpg",
         link: "https://ballnutrition.com.ar/busqueda?q=protein+bar+ena&m=&c=barrasdeproteinas",
         nombre: "Protein Bar Ena",
